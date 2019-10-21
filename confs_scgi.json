@@ -1,0 +1,48 @@
+{
+	"funct"		: ["make_qrcode", "generator", "build_latex"],
+	
+	"general"	: {
+		"out_dir"		: "C:/Users/rvhmora/Documents/certificado/scgi",
+		"names_file" 	: [	["lists/assistants_scgi2018.txt", "assistant"],
+							["lists/speakers_scgi2018.txt", "speaker"],
+							["lists/organizer_scgi2018.txt", "organizer"] ],
+		"url"			: "http://cs.ucsp.edu.pe/cert/scgi2018",
+		"folio"			: 1
+	},
+	
+	
+	
+	
+	"generator"		:{
+		
+		"template"		: {
+							"assistant"		: "templates/assistant.txt",
+							"speaker"		: "templates/speaker.txt",
+							"organizer"		: "templates/organizer_scgi.txt",
+							"organizer2"	: "templates/organizer_scgi_formato2.txt"
+						},
+						
+		"tokens"		: [	
+							["$EVENTO$" , "XII Simposio Peruano de Computación Gráfica e Imágenes (SCGI 2018)"],
+							["$DATE$", "27 de diciembre del 2018"],
+							["$TINY$", "CS."]
+						],
+		
+		"signature"		: "C:/Users/rvhmora/Documents/certificado/images/firma.png"
+		
+	},
+	
+	"build_latex"	: {
+		"latex"			: "pdflatex",
+		"gs"			: "gswin64c",
+		"ps"			: "ps2pdf",
+		"pass"			: "ucsp",
+		"event_name"	: "XII Simposio Peruano de Computación Gráfica e Imágenes (SCGI 2018)",
+		"event_page"	: "http://cs.ucsp.edu.pe/scgi2018/"
+		
+	},
+	
+	"make_qrcode"	: {
+		"ext"			: "png"
+	}	
+}

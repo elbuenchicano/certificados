@@ -1,0 +1,43 @@
+{
+	"funct"		: ["make_qrcode", "generator", "build_latex"],
+	
+	"general"	: {
+		"out_dir"		: "D:/docs/certificado/escuelal_correcion",
+		"names_file" 	: [	["lists/escuela_l3.txt", "assistant"]],
+		"url"			: "http://cs.ucsp.edu.pe/cert/escuela_verano_cs_2019",
+		"folio"			: 219
+	},
+	
+	
+	
+	
+	"generator"		:{
+		
+		"template"		: {
+							"assistant"		: "templates/assistant_escuela.txt"
+						},
+						
+		"tokens"		: [	
+							["$EVENTO$" , "Escuela de Verano en Ciencia de la Computación 2019"],
+							["$DATE$", "del 11 al 15 de febrero del 2019"],
+							["$TINY$", "CS."]
+						],
+		
+		"signature"		: "D:/docs/certificado/images/firma_escuela.png"
+		
+	},
+	
+	"build_latex"	: {
+		"latex"			: "pdflatex",
+		"gs"			: "gswin64c",
+		"ps"			: "ps2pdf",
+		"pass"			: "ucsp",
+		"event_name"	: "Escuela de Verano en Ciencia de la Computación 2019",
+		"event_page"	: "http://cs.ucsp.edu.pe/scgi2018/"
+		
+	},
+	
+	"make_qrcode"	: {
+		"ext"			: "png"
+	}	
+}

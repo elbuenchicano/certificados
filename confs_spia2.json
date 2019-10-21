@@ -1,0 +1,50 @@
+{
+	"funct"		: ["build_latex"],
+	
+	"general"	: {
+		"out_dir"		: "d:/docs/certificado/spia_corregido",
+		
+		"names_file" 	: [	["lists/assistants_spia2018.txt", "assistant"],
+							["lists/speakers_spia2018.txt", "speaker"],
+							["lists/organizer_spia2018.txt", "organizer"]],
+							
+		"url"			: "http://cs.ucsp.edu.pe/cert/spia2018",
+		"folio"			: 51
+	},
+	
+	
+
+	
+	"generator"		:{
+		
+		"template"		: {
+							"assistant"		: "templates/assistant_spia.txt",
+							"speaker"		: "templates/speaker_spia.txt",
+							"organizer"		: "templates/organizer_spia.txt",
+							"organizer2"	: "templates/organizer_spia_formato2.txt"
+						},
+						
+		"tokens"		: [	
+							["$EVENTO$" , "X Simposio Peruano de Inteligencia Artificial (SPIA 2018)"],
+							["$DATE$", "7 de enero del 2019"],
+							["$TINY$", "CS."]
+						],
+						
+		"signature"		: "d:/docs/certificado/images/firma_spia.png"
+		
+	},
+	
+	"build_latex"	: {
+		"latex"			: "pdflatex",
+		"gs"			: "gswin64c",
+		"ps"			: "ps2pdf",
+		"pass"			: "ucsp",
+		"event_name"	: "X Simposio Peruano de Inteligencia Artificial (SPIA 2018))",
+		"event_page"	: "http://cs.ucsp.edu.pe/spia2018/"
+		
+	},
+	
+	"make_qrcode"	: {
+		"ext"			: "png"
+	}	
+}	
