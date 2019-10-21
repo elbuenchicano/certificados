@@ -1,0 +1,15 @@
+Nilton César Ayra#cesar.ayra@gmail.com|Detección de la displacia de cadera en bebés usando búsquedas por similitud|Expositor oral (trabajos en desarrollo)
+Wilbur Naike Chiuyari Veramendi#nike.codeux@gmail.com|Detección de la displacia de cadera en bebés usando búsquedas por similitud|Expositor oral (trabajos en desarrollo)
+Anibal F. Flores García#anibalf11@gmail.com|Proposal for personalized learning based on Case Based Reasoning and Reinforcement Learning|Expositor oral (trabajos en desarrollo)
+Diana S. Patiño Polar#diana.patino@ucsp.edu.pe|Machine Learning en predicción de carreras de Fórmula 1|Expositor oral (trabajos en desarrollo)
+Jonathan Kevin Javier Reyes#jonathan.javier@mdp.com.pe|Access to offices through facial recognition using Raspberry Pi 3|Expositor oral (trabajos en desarrollo)
+Leonardo León Vera#lleonv@uni.pe|Access to offices through facial recognition using Raspberry Pi 3|Expositor oral (trabajos en desarrollo)
+Renato Aarón Castro Cruz#racastroc@uni.pe|Access to offices through facial recognition using Raspberry Pi 3|Expositor oral (trabajos en desarrollo)
+Jonathan Kevin Javier Reyes#jonathan.javier@mdp.com.pe|Android mobile application for Digital Onboarding|Expositor oral (demostraciones)
+Cristian Lazo Quispe#clazoq@uni.pe|Skin Cancer Detection Using Deep Neural Networks Mask-RCNN|Expositor oral (trabajos avanzados)
+Jhosimar Arias Figueroa#jariasf03@gmail.com|Learning to Cluster with Auxiliary Tasks: A Semi-Supervised Approach|Expositor oral (trabajos avanzados)
+Josimar Edinson Chire Saire#jecs89@gmail.com|FP-AK-QIEA-R seed to help the convergence of PECO|Expositor oral (trabajos avanzados)
+Isaac Ocampo Yahuarcani#iocampo@iiap.org.pe|Clusterización y predicción de temperatura en la Amazonía peruana utilizando Redes Neuronales y computadoras de alto desempeño|Expositor oral (trabajos avanzados)
+Rodolfo Cárdenas Vigo#rcardenasv@iiap.org.pe|Clusterización y predicción de temperatura en la Amazonía peruana utilizando Redes Neuronales y computadoras de alto desempeño|Expositor oral (trabajos avanzados)
+Victor A. Cornejo Arismendi#victor.corn@gmail.com|Generación de marcha de un robot humanoide imitando al ser humano|Ponente principal
+Erika Guetti Suca#eguetti18@gmail.com|Introduction to the Semantic Web: History, Challenges and Applications|Ponente principal

@@ -1,0 +1,12 @@
+Filomen Incahuanaco Quispe#melhorum@gmail.com|High-Dimensional Filtering|Ponente principal
+Daniel Alexis Gutierrez Pachas#daniel.gutierrez@ufjf.edu.br|Algoritmos de Complementariedad y aplicaciones|Ponente principal
+Manuel Loaiza Fernández#meloaiza@ucsp.edu.pe|Realidad virtual, realidad aumentada y mixta: Inicio y nuevas tendencias en la industria|Ponente principal
+Edward Jorge Yuri Cayllahua Cahuina#ecayllahua1@gmail.com|Algorithms for hierarchical segmentation based on the Felzenszwalb-Huttenlocher dissimilarity|Ponente principal 
+Angela Gabriela Mayhua Quispe#amayhuaq@gmail.com|Extracting Visual Encodings from Map Chart Images with Color-encoded Scalar Values|Ponente principal 
+Raul Romani Flores#raul.romani@ucsp.edu.pe|A novel multidimensional projection technique for mixed data|Ponente principal 
+Alejandra Callo Aguilar#alejandra.callo@ucsp.edu.pe|Análisis visual de la deforestación de la Amazonia Peruana mediante el procesamiento imágenes satelitales y visualización de datos|Ponente principal 
+Max Willians Portocarrero Espinilla#mxportocarrero@gmail.com|Improved Ways for Direct Visual Odometry in Indoor Dynamic|Ponente principal 
+Kelly Vizconde La Motta#kelly.vizconde@gmail.com|Reconocimiento de acciones cotidianas usando información multimodal|Ponente principal 
+Lizeth Fuentes Pérez#lztfuentespz@gmail.com|Dictionary Learning-based Inpainting on Triangular Meshes|Ponente principal 
+Luciano Romero Calla#luccianorc@gmail.com|An Iterative Parallel Algorithm for Computing Geodesic Distances on Triangular Meshes|Ponente principal 
+Guillermo Cámara Chávez#gcamarc@gmail.com|Multimodal Human Action Recognition Based on a Fusion of Dynamic Images using CNN descriptors|Ponente principal 

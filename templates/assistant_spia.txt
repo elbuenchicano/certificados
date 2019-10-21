@@ -1,0 +1,151 @@
+\documentclass[16pt,a4paper]{scrartcl}              %class
+\usepackage[landscape,left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry} %for layout
+\usepackage{setspace} % for spacing between lines
+\usepackage{graphicx}         %for including images
+\usepackage{eso-pic}     %package for including background image
+\usepackage{color}
+\usepackage[latin1]{inputenc}
+\usepackage[spanish, english]{babel}
+\usepackage{tabularx}
+\selectlanguage{spanish}
+\definecolor{a}{rgb}{0,0,0}
+
+\definecolor{red}{rgb}{0.5,0,0}
+%---------------------------------------------------------------
+ \renewcommand{\arraystretch}{2}
+ 
+ \renewcommand{\baselinestretch}{1.5}
+
+ \newcommand\BackgroundPic{
+ \put(0,0){
+ \parbox[b][\paperheight]{\paperwidth}{%
+ \vfill
+ \centering
+ \includegraphics[width=\paperwidth,height=\paperheight,
+ keepaspectratio]{$SIGNATURE$}              % here include background image
+ \vfill
+ }}}
+%----------------------------------------------------------------
+%=============================
+%\usepackage{datatool}  % This package is required to include database file as .csv 
+%\DTLloaddb{name}{data.csv}       % data.csv includes information from database
+ %=============================
+%=============================
+\def\signature#1#2{\parbox[b]{1in}{\smash{#1}\vskip12pt}
+\hfill \parbox[t]{2.8in}{\shortstack{\vrule width 3.3in height 0.4pt\\\small#2}}}
+\def\sigskip{\vskip0.4in plus 0.1in}
+        \def\beginskip{\vskip0.5875in plus 0.1in}
+%=============================
+ \begin{document}
+ \AddToShipoutPicture{\BackgroundPic}     % here background image is called
+%=============================
+% \DTLforeach{name}{
+% \name=Name, \dep=Dep, \photo=photo}{
+ %=============================
+\noindent
+\begin{minipage}[l]{0.4in}
+	\begin{tabular}{lr}
+		\begin{tabular}{lr}
+			\includegraphics[width=6.\textwidth]{d:/docs/certificado/images/UCSP.pdf}& 
+			\rule{10pt}{0ex}
+			\includegraphics[width=2.\textwidth]{d:/docs/certificado/images/SPC.pdf}
+			\rule{10pt}{0ex}
+			\includegraphics[width=5.\textwidth]{d:/docs/certificado/images/ieee.pdf}
+		\end{tabular}
+		
+		\rule{169pt}{0ex} &   
+		\begin{tabular}{c}
+			\includegraphics[width=2.8\linewidth]{$QR$}   \\[-1.7cm] 
+			\tiny{$TINY$$NUMBER$}			
+		\end{tabular} 
+	\end{tabular} 
+  %Here include left side image
+
+\end{minipage}
+
+
+
+
+
+ \hfill
+ %\vfill
+ 
+ %============================= 
+ \noindent
+\begin{minipage}[c]{10.in}
+{\centering
+{\onehalfspacing
+    {\LARGE\bfseries\color{a}CERTIFICADO}
+   %{\bfseries\color{red}(Punjab Govt. Aided Status,NBA Accreditated)}\\
+
+    }}
+\end{minipage}
+ \hfill
+ %=============================
+%\begin{minipage}[r]{1.0in}
+%\includegraphics[width=1.2\linewidth]{\photo}  %here include right side image
+%\end{minipage}
+\hfill
+
+%=============================
+\noindent
+\begin{minipage}[l]{1.5in}
+\end{minipage}
+ \hfill
+ %=============================
+ \newline
+\begin{minipage}[c]{0, in}
+{
+{
+{\bfseries\color{a} Otorgado~a:}
+}}
+\end{minipage}
+
+\begin{minipage}[c]{9.6in}
+	{\centering
+		{\doublespacing
+			{\LARGE\bfseries\color{a} $NAME$}\\
+	}}
+\end{minipage}
+%\hfill
+%=============================
+%\begin{minipage}[r]{1.0in}
+
+%\end{minipage}
+%\hfill
+
+%=============================
+
+\vspace{1cm}
+\singlespacing
+\noindent{{Por haber participado en el \textbf{$EVENTO$}, organizado por el Departamento de Ciencia de la Computación de la Universidad Católica San Pablo y la Sociedad Peruana de Computación, realizado el $DATE$.
+
+}}
+
+\noindent
+%\beginskip
+{%\singlespacing 
+\vfill
+\vfill
+%\begin{minipage}[l]{2.8in}
+% \sigskip \signature{}{\bfseries\color{a} Dr. Harish Kumar \\ \bfseries\color{a} Co-ordinator }
+%\end{minipage}
+%\hfill
+%\begin{minipage}[l]{1.8in}
+%\sigskip \signature{}{\bfseries\color{a} Dr. Alex Cuadros Vargas \\  Director del Departamento de  Ciencia \\ de la Computación
+% }
+%\end{minipage}
+%\hfill
+
+\begin{minipage}[l]{1.8in}
+\sigskip \signature{}{\bfseries\color{a} Dr. Alex Cuadros Vargas \\  Director del Departamento de  Ciencia \\ de la Computación
+ }
+\end{minipage}
+\begin{minipage}[c]{6.7in}
+\sigskip \signature{}{\bfseries\color{a} Dr. Yván Jesús Tupac Valdivia\\  Organizador general del X SPIA 2018}
+\end{minipage}}
+
+%=============================
+ \pagebreak
+ 
+\end{document}

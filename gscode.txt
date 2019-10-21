@@ -1,0 +1,3 @@
+gswin64c -sDEVICE=pdfwrite -dCompatibilityLevel=1.4 -dBATCH -dNOPROMPT -dNOPAUSE -dQUIET -sOwnerPassword=mypassword -sUserPassword=manan -sOutputFile=MyOutputFile.pdf MyInputFile.pdf
+gswin64c -dNOPAUSE -dBATCH -sDEVICE=ps2write -sOutputFile=out.ps original.pdf 
+ps2pdf out.ps put.pdf
